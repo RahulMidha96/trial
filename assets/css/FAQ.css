@@ -1,0 +1,50 @@
+ .newsbox{
+        width: 100%;
+        height:auto;
+        border-style: solid;
+        border-color:white;
+        box-shadow:1px 1px 2px 2px #808080;
+        border-width: 1px 1px 1px 1px;
+        border-radius: 1px;
+        padding:10px 5px 5px 7px;
+        margin-bottom:80px;
+        margin-top:30px;
+        background-color: #FFFFFF;
+     }
+     
+     #hr_story{
+         border-width: 2px;
+         width:95%;
+     }
+     .story_heading h4{
+        font-weight: 400;
+     }
+     .story_image img{
+        max-width:100%;
+        height: auto;
+     }
+     .story_name{
+        padding-left: 0px;
+     }
+     .story_name h3,h4{
+        margin-top:-2px;
+        margin-left: 0px;;
+        text-align: left;
+     }
+     .date{
+        color:#C2C2C2; 
+     }
+      .news:before{top:0;bottom:0;
+    position:absolute;content:"";width:2px;background-color:
+    #f1f1f1;left:40px;margin-left:10%}
+    
+	@media (max-width:425px){
+        .story_name h3,h4{
+            margin-top: 5px;
+            text-align: center;
+        }
+        .date{
+            margin-bottom: -20px;
+        }
+    }
+	
